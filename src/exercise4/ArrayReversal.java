@@ -20,9 +20,6 @@ public class ArrayReversal{
       arrOutput[length-index-1] = arrInput[index];
     }
 
-
-
-
     String numbersAsString = Arrays.toString(arrOutput);
     System.out.println("Reversed symbols: " + numbersAsString);
   }
